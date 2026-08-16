@@ -46,10 +46,11 @@ export default function About() {
           </p>
           <p>
             I did that for other people’s brands and events for ten years. Now
-            I build the websites and software too — which used to mean hiring a
-            dev team, and doesn’t anymore. So you’re not paying someone to
-            learn your business first. I’ve worked the floor and chased the
-            invoices, and I move fast: most projects are weeks, not quarters.
+            I build the websites and the software too — which used to mean
+            hiring a whole team of programmers, and doesn’t anymore. So
+            you’re not paying someone to learn your business first. I’ve
+            worked the floor and chased the invoices myself, and I move
+            quickly: most projects take weeks, not most of a year.
           </p>
         </div>
 

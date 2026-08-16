@@ -46,9 +46,12 @@ export default function Contact() {
           <p className="kicker">Good fits right now</p>
           <ul className="feature-list">
             <li>Websites for schools, restaurants, venues, and small businesses</li>
-            <li>Internal tools that replace spreadsheet chaos</li>
-            <li>Sponsorship strategy and event production</li>
-            <li>Wine programs, lists, and staff training</li>
+            <li>
+              Software built for your business, when the spreadsheet has stopped
+              coping
+            </li>
+            <li>Sponsorship and event production</li>
+            <li>Wine lists, wine programs, and training your staff</li>
           </ul>
           <p className="muted" style={{ marginTop: 22, fontSize: "0.92rem" }}>
             Based in Gothenburg (CET), Portland roots — US hours are genuinely

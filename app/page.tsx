@@ -6,7 +6,9 @@ export default function Home() {
     <main>
       <div className="wrap">
         <section className="hero">
-          <p className="kicker">Austin Abelkis · Gothenburg &amp; Portland</p>
+          <p className="kicker">
+            Austin Abelkis · From Gothenburg, Sweden to Portland, Oregon
+          </p>
           <h1 className="display hero-title">
             I produce
             <br />
@@ -20,13 +22,6 @@ export default function Home() {
             software, events, design. One person, quick turnarounds, no
             account managers.
           </p>
-          <div className="hero-meta">
-            <span>Producer</span>
-            <span className="dot-sep">·</span>
-            <span>Builder</span>
-            <span className="dot-sep">·</span>
-            <span>Sommelier</span>
-          </div>
         </section>
       </div>
 
@@ -61,8 +56,9 @@ export default function Home() {
               <span className="lane-no">iii</span>
               <h3>Build</h3>
               <p>
-                Websites and software, shipped and running without me. Sites,
-                enrollment systems, internal tools that kill the spreadsheet.
+                Websites, and software built for how you actually work.
+                Booking, enrollment, invoices — whatever the spreadsheet is
+                currently pretending to do.
               </p>
             </div>
             <div
@@ -107,9 +103,10 @@ export default function Home() {
                   <span className="when">Site + software</span>
                 </div>
                 <p>
-                  A whole school online: the public site families see, plus the
+                  A whole school online: the site families see, plus the
                   admissions and paperwork system the office runs itself.
-                  Applications, e-signatures, reminders, the works.
+                  Parents apply and sign online, and the reminders send
+                  themselves.
                 </p>
               </div>
             </Link>
@@ -186,11 +183,11 @@ export default function Home() {
           <div className="section-head">
             <div>
               <h2 className="kicker" style={{ marginBottom: 0 }}>
-                Order by the glass
+                What do you need?
               </h2>
             </div>
             <p className="aside-note">
-              Pick a problem, get a wine and an honest answer.
+              Pick whichever sounds most like you.
             </p>
           </div>
           <Pairings />

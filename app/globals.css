@@ -483,11 +483,13 @@ section + section {
   text-align: center;
 }
 
+/* The answer leads; the wine is a garnish at the bottom. A visitor looking
+   for a website shouldn't have to decode a metaphor to find out what they'd
+   get. */
 .pairing-body {
-  display: grid;
-  grid-template-columns: minmax(0, 4fr) minmax(0, 8fr);
-  gap: clamp(20px, 4vw, 48px);
-  padding: 4px 0 30px;
+  display: block;
+  max-width: 62ch;
+  padding: 2px 0 30px;
 }
 
 /* A class selector beats the UA stylesheet's [hidden] rule, so without this
@@ -525,13 +527,12 @@ section + section {
 }
 
 .pairing-work {
-  margin-top: 14px;
-  font-size: 0.98rem;
-  max-width: 60ch;
+  font-size: 1.05rem;
+  line-height: 1.6;
 }
 
 .pairing-shape {
-  margin-top: 10px;
+  margin-top: 12px;
   font-size: 0.82rem;
   text-transform: uppercase;
   letter-spacing: 0.12em;
@@ -541,6 +542,30 @@ section + section {
 
 .pairing-body .btn {
   margin-top: 20px;
+}
+
+.pairing-wine-note {
+  margin-top: 22px;
+  padding-top: 14px;
+  border-top: 1px solid var(--rule);
+  font-size: 0.88rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.pairing-wine-note span {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-style: normal;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--wine);
+  margin-right: 6px;
+}
+
+.pairing-wine-note b {
+  color: var(--wine);
+  font-style: normal;
 }
 
 @media (max-width: 720px) {

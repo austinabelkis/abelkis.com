@@ -15,9 +15,9 @@ export default function Work() {
           Receipts, not claims.
         </h1>
         <p className="standfirst">
-          Everything here is live, shipped, or ran on schedule with the doors
-          open. Screenshots of internal tools use demo data — client records
-          stay private, which is half the point of hiring someone careful.
+          Everything here is built and running, or happened on the day it was
+          meant to. Where you see software, the money is blurred and private
+          names are hidden — looking after client information is half the job.
         </p>
       </section>
 
@@ -32,8 +32,8 @@ export default function Work() {
             <p>
               Every small organization has had this exact conversation. You
               need software. You find something close — Asana, Monday, Slack,
-              some vertical SaaS at a few hundred a month. It does about{" "}
-              <b>75% of what you actually need</b>.
+              or something built for your industry at a few hundred a month.
+              It does about <b>75% of what you actually need</b>.
             </p>
             <p>
               So you pay for all of it, forever. You bend your process around
@@ -44,13 +44,13 @@ export default function Work() {
               were built around ten thousand businesses at once.
             </p>
             <p>
-              That’s why I built the WagsWorks platform, and why Boulder
-              Waldorf got its own instead of a subscription. A sponsorship
-              agency’s paperwork escalation rules and a preschool’s
-              enrollment pipeline are not generic problems — they are that
-              business, written down. Software shaped to the actual work
-              disappears into the day. Software you have to work around never
-              does.
+              That’s why WagsWorks got its own software, and why Boulder
+              Waldorf did too, instead of another monthly subscription. The way
+              a sponsorship agency chases paperwork, and the order a preschool
+              takes families through enrollment, aren’t generic problems —
+              they’re that business, written down. Software built to match the
+              real job disappears into the day. Software you have to work
+              around never does.
             </p>
             <p>
               Custom software used to mean a six-figure budget and a year of
@@ -85,37 +85,42 @@ export default function Work() {
                 designed and built by me, used by the team every working day.
               </p>
               <p>
-                It is not a project-management tool with sponsorship words
-                pasted over it. A deal knows which show it belongs to, which
-                paperwork it still owes, which invoice it becomes, and how many
-                tickets the client has left. Nothing generic gets that far,
-                because nothing generic knows what a COI is.
+                It isn&apos;t an off-the-shelf to-do app with sponsorship words
+                pasted over it. A deal knows which show it belongs to, what
+                paperwork it still owes, which invoice it turns into, and how
+                many tickets that client has left. Nothing generic gets that
+                far, because nothing generic knows that a missing insurance
+                certificate can stop a truck at the gate.
               </p>
             </div>
             <ul className="feature-list">
               <li>
-                A deal pipeline grouped by client and show, each one carrying
-                its own stage bar — pitched, in progress, closed — so the state
-                of a hundred-odd live deals reads at a glance
+                Every deal in one place, sorted by client and by show, with a
+                colored bar for what&apos;s been pitched, what&apos;s in
+                progress and what&apos;s done — so a hundred-odd live deals
+                make sense at a glance
               </li>
               <li>
-                Paperwork that chases itself: an item left alone for a week
-                gets flagged, two weeks overdue becomes an urgent task with a
-                name on it, and the task closes itself when the item finally
-                moves
+                Paperwork that chases itself. Leave something a week and it
+                gets flagged; leave it two and it becomes somebody&apos;s
+                urgent job, with their name on it. When the paperwork finally
+                arrives, the reminder disappears on its own
               </li>
               <li>
-                Tasks typed the way you&apos;d say them — “Call Sarah tomorrow
-                @scott urgent” — with the due date, the assignee and the
-                priority parsed out of the sentence
+                Tasks you type the way you&apos;d say them out loud — “Call
+                Sarah tomorrow, Scott, urgent” — and it works out the date, who
+                it&apos;s for, and how urgent it is
               </li>
-              <li>Invoices, with anything overdue surfacing before someone asks</li>
-              <li>Revenue by event: pitched vs. projected vs. paid, year over year</li>
-              <li>Guestlists and per-show ticket banks for every client</li>
-              <li>Team chat with @mentions and alerts that clear themselves</li>
-              <li>Per-user Gmail connection, so a deal carries its email history</li>
-              <li>Realtime sync — everyone sees a change without refreshing</li>
-              <li>Installs on a phone like a native app, and works offline</li>
+              <li>Invoices, with anything late showing up before a client has to ask</li>
+              <li>
+                What each event is actually earning — what was pitched, what
+                is expected, what has been paid — next to last year
+              </li>
+              <li>Guest lists, and how many tickets each sponsor has left</li>
+              <li>A team chat, so questions about a deal stay with the deal</li>
+              <li>Connects to your email, so a deal carries its own history</li>
+              <li>Change something and everyone else sees it straight away</li>
+              <li>Sits on your phone like any other app, and works with no signal</li>
             </ul>
             <div className="numbers">
               <div className="stat">
@@ -132,9 +137,10 @@ export default function Work() {
               </div>
             </div>
             <p className="tech-note">
-              For the technical reader: a dependency-free PWA on Cloudflare
-              Workers with Supabase (realtime + row-level security), tested
-              with Playwright. No framework, nothing to babysit.
+              Skip this bit unless you have a developer who&apos;ll ask: it
+              runs on Cloudflare and Supabase, with no framework and no
+              dependencies to keep patched, and it&apos;s tested
+              automatically before anything ships.
             </p>
 
             <div className="ledger">
@@ -169,7 +175,7 @@ export default function Work() {
                 <dd>In production daily</dd>
               </div>
               <div>
-                <dt>Stack</dt>
+                <dt>Built with</dt>
                 <dd>Cloudflare Workers · Supabase · PWA</dd>
               </div>
               <div>
@@ -323,20 +329,30 @@ export default function Work() {
             </div>
             <ul className="feature-list">
               <li>
-                Full public site — programs, admissions, summer camp, FAQs,
-                site-wide search
+                The whole public site — programs, admissions, summer camp,
+                FAQs, and a search box that actually finds things
               </li>
-              <li>Online application with save-and-resume for busy parents</li>
-              <li>Enrollment paperwork signed online, with document uploads</li>
-              <li>Confidential provider questionnaires with tokenized links</li>
               <li>
-                Every family unified into one profile — inquiry to enrollment,
-                with milestone tracking and automated reminders
+                Parents apply online and can stop halfway and come back, which
+                is how people with small children actually fill in forms
               </li>
-              <li>Newsletters and email templates the office edits itself</li>
               <li>
-                Click-to-edit content: staff update pages by clicking on them —
-                no CMS subscription, no webmaster on retainer
+                Enrollment paperwork signed in the browser, with somewhere to
+                upload the documents that have to be scanned
+              </li>
+              <li>
+                Private forms for a child&apos;s doctor or therapist, opened
+                by a link only they receive, and never visible to the family
+              </li>
+              <li>
+                One page per family, from first enquiry to enrolled — where
+                they are, what&apos;s missing, and reminders that send
+                themselves
+              </li>
+              <li>Newsletters and automatic emails the office writes itself</li>
+              <li>
+                Staff change the website by clicking on the words and typing.
+                No monthly subscription, and nobody to phone
               </li>
             </ul>
             <div className="numbers">
@@ -346,7 +362,7 @@ export default function Work() {
               </div>
               <div className="stat">
                 <b>134</b>
-                <span>browser renders QA’d per release, desktop + phone</span>
+                <span>page checks run automatically before anything goes live</span>
               </div>
               <div className="stat">
                 <b>140</b>
@@ -354,10 +370,11 @@ export default function Work() {
               </div>
             </div>
             <p className="tech-note">
-              For the technical reader: Next.js + Supabase on Vercel,
-              transactional email via Resend, and an automated visual QA
-              harness that renders all 67 pages in a real browser at two
-              widths before anything ships.
+              Skip this bit unless you have a developer who&apos;ll ask: it
+              runs on Next.js and Supabase, hosted on Vercel. Before any
+              change goes live, every one of the 67 pages is opened
+              automatically in a real browser at desktop and phone size and
+              checked for things that look broken.
             </p>
           </div>
           <div>
@@ -380,7 +397,7 @@ export default function Work() {
                 </dd>
               </div>
               <div>
-                <dt>Stack</dt>
+                <dt>Built with</dt>
                 <dd>Next.js · Supabase · Vercel</dd>
               </div>
               <div>
