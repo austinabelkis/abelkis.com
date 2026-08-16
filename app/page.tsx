@@ -116,22 +116,22 @@ export default function Home() {
             <Link className="work-card" href="/work#wagsworks-os">
               <span className="thumb">
                 <img
-                  src="/img/bwk-admin-family.webp"
-                  alt="An admin family profile, shown with invented demo records"
+                  src="/img/wags-dashboard.webp"
+                  alt="The WagsWorks OS dashboard"
                   width={1600}
-                  height={1000}
+                  height={614}
                 />
               </span>
               <div className="work-copy">
                 <div className="work-line">
-                  <h3>The software behind it</h3>
+                  <h3>WagsWorks OS</h3>
                   <span className="leader"></span>
-                  <span className="when">Custom tools</span>
+                  <span className="when">Custom software</span>
                 </div>
                 <p>
-                  Every family in one place, every form tracked, every reminder
-                  automatic. Built around how the school actually works instead
-                  of making them work around it.
+                  A sponsorship agency’s whole back office in one app — deals,
+                  paperwork that chases itself, invoices, guestlists. Built
+                  because nothing off the shelf fit the job.
                 </p>
               </div>
             </Link>

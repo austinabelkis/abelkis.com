@@ -174,7 +174,7 @@ export default function Work() {
               </div>
               <div>
                 <dt>Access</dt>
-                <dd>Internal — demo on request</dd>
+                <dd>Internal — walkthrough on request</dd>
               </div>
             </dl>
           </div>
@@ -189,18 +189,110 @@ export default function Work() {
                 <i></i>
               </div>
               <img
-                src="/img/wagsworks-os-login.webp"
-                alt="WagsWorks OS sign-in screen"
-                width={1440}
-                height={900}
+                src="/img/wags-dashboard.webp"
+                alt="The WagsWorks OS dashboard: headline numbers, guestlist, overdue actions, and revenue by event"
+                width={1600}
+                height={614}
               />
             </div>
             <figcaption>
-              The front door. The rooms behind it are full of live deals, so
-              they stay private here — ask and I’ll walk you through on a
-              call.
+              <b>Monday morning, one screen.</b> What the year is worth, what
+              is overdue and whose name is on it, and which events are earning.
+              The red items escalated themselves.
             </figcaption>
           </figure>
+
+          <figure className="figure">
+            <div className="browser-frame">
+              <div className="bar">
+                <i></i>
+                <i></i>
+                <i></i>
+              </div>
+              <img
+                src="/img/wags-deals.webp"
+                alt="The deal pipeline: a card per client with counts, values and a red/amber/green stage bar"
+                width={1600}
+                height={860}
+              />
+            </div>
+            <figcaption>
+              <b>Every client, every deal, one glance.</b> A card per property
+              with its own stage bar — red needs attention, amber is moving,
+              green is done. Roughly 150 deals live in here.
+            </figcaption>
+          </figure>
+
+          <figure className="figure">
+            <div className="browser-frame">
+              <div className="bar">
+                <i></i>
+                <i></i>
+                <i></i>
+              </div>
+              <img
+                src="/img/wags-todo.webp"
+                alt="The to-do list, with tasks created automatically from deals and overdue dates in red"
+                width={1600}
+                height={442}
+              />
+            </div>
+            <figcaption>
+              <b>Type it the way you’d say it.</b> “Call Sarah tomorrow @scott
+              urgent” becomes a task with a due date, an owner and a priority.
+              The rest arrive on their own when a deal needs paperwork or an
+              invoice.
+            </figcaption>
+          </figure>
+
+          <figure className="figure">
+            <div className="browser-frame">
+              <div className="bar">
+                <i></i>
+                <i></i>
+                <i></i>
+              </div>
+              <img
+                src="/img/wags-relationships.webp"
+                alt="Relationship management: days since last email per client, with per-client nudge thresholds"
+                width={1600}
+                height={873}
+              />
+            </div>
+            <figcaption>
+              <b>The one no product sells you.</b> It reads how long each
+              client has actually been quiet — from real email history — and
+              nudges when they cross a threshold you set per client. Some
+              relationships need a month; some need three.
+            </figcaption>
+          </figure>
+
+          <figure className="figure">
+            <div className="browser-frame">
+              <div className="bar">
+                <i></i>
+                <i></i>
+                <i></i>
+              </div>
+              <img
+                src="/img/wags-ticketing.webp"
+                alt="Ticketing: guest list spots, ticket banks per sponsor, and confirmation emails"
+                width={1600}
+                height={720}
+              />
+            </div>
+            <figcaption>
+              <b>Tickets, which are their own small hell.</b> Who asked, for
+              which show, out of whose allocation, and how many that sponsor
+              has left — with the confirmation email one button away.
+            </figcaption>
+          </figure>
+
+          <p className="demo-note">
+            Real screens from the running platform. Money is blurred, and so
+            are the names of individual guests — the client and festival names
+            are the roster, and they stay.
+          </p>
         </div>
       </article>
 
