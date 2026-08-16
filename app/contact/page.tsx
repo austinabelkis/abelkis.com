@@ -33,11 +33,12 @@ export default function Contact() {
         <div className="hook">
           <p className="kicker">Found me through the Waldorf site?</p>
           <p>
-            boulderwaldorf.com — the public pages and the admissions software
-            behind them — is my work. If your school or small business wants
-            something at that level, I build at boutique-of-one rates: a
-            fraction of agency cost, no account managers, you talk directly to
-            the person making it.
+            Boulder Waldorf Kindergarten &amp; Preschool&apos;s new site — and
+            the admissions and paperwork software behind it — is my work. If
+            your school or small business wants something at that level, I
+            build it for a fraction of agency cost: no account managers, no
+            retainer, and you talk directly to the person making it. Most
+            projects run in weeks rather than quarters.
           </p>
         </div>
 

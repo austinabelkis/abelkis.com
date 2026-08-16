@@ -76,11 +76,24 @@ certificate automatically once the records resolve.
 
 ## Still to do
 
-- **Screen recordings of the two platforms.** Static shots undersell
-  software. Short silent loops of the WagsWorks pipeline and the Boulder
-  Waldorf admin — driven by demo data, same rules as above — would show the
-  thing working. This is the highest-value remaining addition.
-- **WagsWorks OS interior shots.** Currently only the sign-in screen is
-  shown, because the interior holds real deals and dollar figures. A demo
-  account with invented deals would unlock the pipeline and papering views,
-  which are the most impressive part of that build.
+- **WagsWorks OS interior shots.** The case study copy is written and waiting
+  — only the sign-in screen is currently shown. Four screens are worth
+  having: **Deals** (client cards with the red/amber/green stage bars),
+  **To Do** (including the quick-add hint, since parsing a due date,
+  assignee and priority out of a typed sentence is the single most
+  impressive detail), **Revenue**, and **Invoices** with something overdue.
+
+  These can't be captured automatically: there is no service-role key on this
+  machine, so unlike Boulder Waldorf no demo account can be minted, and
+  screenshots taken inside the assistant's browser pane can't be written to
+  disk. Grab them with Cmd+Shift+4 and they can be cropped and redacted from
+  the Desktop.
+
+  Before publishing any of them: blur every dollar figure, and blur
+  individual people's names on guestlists (those are private individuals).
+  Sponsor and festival names can stay — they read as a client roster.
+  **Keep the "Crystal Blocks" / "West Side Entertainment District" task out
+  entirely** — that is a working name for an unannounced McMenamins property.
+
+- **A recording of WagsWorks OS**, same as the Boulder Waldorf one, once the
+  above is sorted.

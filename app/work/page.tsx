@@ -84,25 +84,53 @@ export default function Work() {
                 spreadsheets, inboxes, and memory. Now it lives in one system —
                 designed and built by me, used by the team every working day.
               </p>
+              <p>
+                It is not a project-management tool with sponsorship words
+                pasted over it. A deal knows which show it belongs to, which
+                paperwork it still owes, which invoice it becomes, and how many
+                tickets the client has left. Nothing generic gets that far,
+                because nothing generic knows what a COI is.
+              </p>
             </div>
             <ul className="feature-list">
               <li>
-                Deal pipeline from <i>Potential Fit</i> to <i>Complete</i>,
-                grouped by show, with close-percentage and dollar rollups
+                A deal pipeline grouped by client and show, each one carrying
+                its own stage bar — pitched, in progress, closed — so the state
+                of a hundred-odd live deals reads at a glance
               </li>
               <li>
-                Paperwork tracking with color-coded urgency — items that go
-                stale for a week get flagged, two weeks overdue creates an
-                urgent task, and the task closes itself when the item moves
+                Paperwork that chases itself: an item left alone for a week
+                gets flagged, two weeks overdue becomes an urgent task with a
+                name on it, and the task closes itself when the item finally
+                moves
               </li>
-              <li>Invoices with automatic overdue surfacing</li>
-              <li>Revenue reporting: pitched vs. projected vs. paid, year-over-year</li>
+              <li>
+                Tasks typed the way you&apos;d say them — “Call Sarah tomorrow
+                @scott urgent” — with the due date, the assignee and the
+                priority parsed out of the sentence
+              </li>
+              <li>Invoices, with anything overdue surfacing before someone asks</li>
+              <li>Revenue by event: pitched vs. projected vs. paid, year over year</li>
               <li>Guestlists and per-show ticket banks for every client</li>
-              <li>Team chat with @mentions and self-clearing alerts</li>
-              <li>Per-user Gmail connection for deal email history</li>
-              <li>Realtime sync — everyone sees changes without refreshing</li>
-              <li>Installs on a phone like a native app</li>
+              <li>Team chat with @mentions and alerts that clear themselves</li>
+              <li>Per-user Gmail connection, so a deal carries its email history</li>
+              <li>Realtime sync — everyone sees a change without refreshing</li>
+              <li>Installs on a phone like a native app, and works offline</li>
             </ul>
+            <div className="numbers">
+              <div className="stat">
+                <b>13</b>
+                <span>sections, from deals to guestlists to Drive backups</span>
+              </div>
+              <div className="stat">
+                <b>149</b>
+                <span>deals tracked through the pipeline to date</span>
+              </div>
+              <div className="stat">
+                <b>1</b>
+                <span>person designing, building and using it</span>
+              </div>
+            </div>
             <p className="tech-note">
               For the technical reader: a dependency-free PWA on Cloudflare
               Workers with Supabase (realtime + row-level security), tested
