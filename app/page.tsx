@@ -33,9 +33,9 @@ export default function Home() {
       <div className="wrap">
         <section className="first-section">
           <div className="section-head">
-            <p className="kicker" style={{ marginBottom: 0 }}>
+            <h2 className="kicker" style={{ marginBottom: 0 }}>
               Four things, one person
-            </p>
+            </h2>
             <p className="aside-note">
               Mostly for small businesses and nonprofits
             </p>
@@ -82,9 +82,9 @@ export default function Home() {
         <section>
           <div className="section-head">
             <div>
-              <p className="kicker" style={{ marginBottom: 0 }}>
+              <h2 className="kicker" style={{ marginBottom: 0 }}>
                 Selected work
-              </p>
+              </h2>
             </div>
             <Link className="aside-link" href="/work">
               All case studies →
@@ -185,9 +185,9 @@ export default function Home() {
         <section>
           <div className="section-head">
             <div>
-              <p className="kicker" style={{ marginBottom: 0 }}>
+              <h2 className="kicker" style={{ marginBottom: 0 }}>
                 Order by the glass
-              </p>
+              </h2>
             </div>
             <p className="aside-note">
               Pick a problem, get a wine and an honest answer.

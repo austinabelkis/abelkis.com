@@ -57,6 +57,27 @@ const INSPECT = () => {
       problems.push({ kind: "broken-image", detail: img.getAttribute("src") || "?" });
   }
 
+  // squashed or stretched images — the aspect ratio on screen not matching the
+  // file's own. Invisible to a build, and it made every screenshot on this
+  // site render at over twice its proper height until `img { height: auto }`
+  // was added, because the browser honoured the height attribute literally.
+  for (const img of document.querySelectorAll("img")) {
+    if (!img.complete || img.naturalWidth === 0) continue;
+    const r = img.getBoundingClientRect();
+    if (r.width < 2 || r.height < 2) continue;
+    const natural = img.naturalWidth / img.naturalHeight;
+    const shown = r.width / r.height;
+    const skew = Math.max(natural / shown, shown / natural);
+    if (skew > 1.06) {
+      problems.push({
+        kind: "image-distorted",
+        detail:
+          `${img.getAttribute("src")} — ${img.naturalWidth}x${img.naturalHeight} ` +
+          `shown ${Math.round(r.width)}x${Math.round(r.height)} (${skew.toFixed(2)}x off)`,
+      });
+    }
+  }
+
   // broken video — a 404 mp4 renders as a silent black box, which looks
   // deliberate and is invisible to a build.
   for (const v of document.querySelectorAll("video")) {

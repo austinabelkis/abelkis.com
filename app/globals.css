@@ -42,8 +42,13 @@ body {
   color: var(--paper);
 }
 
+/* height:auto is load-bearing. Every screenshot carries width/height
+   attributes for layout stability; without this the browser honours the
+   height attribute literally, so a 1600x1000 shot renders 736x1000 —
+   stretched to over twice its proper height. */
 img {
   max-width: 100%;
+  height: auto;
   display: block;
 }
 
@@ -706,7 +711,7 @@ section + section {
   border-top-color: var(--green);
 }
 
-.ledger-col h4 {
+.ledger-col .ledger-head {
   font-family: var(--font-display), serif;
   font-weight: 700;
   font-size: 0.78rem;
@@ -716,7 +721,7 @@ section + section {
   margin-bottom: 10px;
 }
 
-.ledger-col.after h4 {
+.ledger-col.after .ledger-head {
   color: var(--green);
 }
 

@@ -52,7 +52,7 @@ export default function CV() {
       </section>
 
       <div className="cv-section">
-        <p className="kicker">Experience</p>
+        <h2 className="kicker">Experience</h2>
         <Entry
           title="WagsWorks"
           where="Marketing Producer / Operations Manager · Remote / Portland, USA"
@@ -97,7 +97,7 @@ export default function CV() {
       </div>
 
       <div className="cv-section">
-        <p className="kicker">Independent build work</p>
+        <h2 className="kicker">Independent build work</h2>
         <Entry
           title="Boulder Waldorf Kindergarten & Preschool"
           where="Design, build & launch — full site + admissions & paperwork platform"
@@ -126,7 +126,7 @@ export default function CV() {
       </div>
 
       <div className="cv-section">
-        <p className="kicker">Earlier & elsewhere</p>
+        <h2 className="kicker">Earlier &amp; elsewhere</h2>
         <Entry
           title="TEDxPortland"
           where="Production volunteer"
@@ -147,7 +147,7 @@ export default function CV() {
       </div>
 
       <div className="cv-section">
-        <p className="kicker">Education & certification</p>
+        <h2 className="kicker">Education &amp; certification</h2>
         <Entry
           title="Portland State University"
           where="B.A. Business Administration — Advertising Management · Portland, Oregon"
@@ -165,7 +165,7 @@ export default function CV() {
       </div>
 
       <div className="cv-section" style={{ paddingBottom: 56 }}>
-        <p className="kicker">Tools & languages</p>
+        <h2 className="kicker">Tools &amp; languages</h2>
         <div className="tag-row">
           {[
             "Google Analytics",

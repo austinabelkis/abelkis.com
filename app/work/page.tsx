@@ -139,7 +139,7 @@ export default function Work() {
 
             <div className="ledger">
               <div className="ledger-col">
-                <h4>Before</h4>
+                <h3 className="ledger-head">Before</h3>
                 <ul>
                   <li>Deals tracked across spreadsheets and inboxes</li>
                   <li>Paperwork status living in somebody’s head</li>
@@ -148,7 +148,7 @@ export default function Work() {
                 </ul>
               </div>
               <div className="ledger-col after">
-                <h4>After</h4>
+                <h3 className="ledger-head">After</h3>
                 <ul>
                   <li>One pipeline, every deal, every show</li>
                   <li>Stale paperwork flags itself and assigns the chase</li>
@@ -447,7 +447,7 @@ export default function Work() {
           </h3>
           <div className="ledger">
             <div className="ledger-col">
-              <h4>Before</h4>
+              <h3 className="ledger-head">Before</h3>
               <ul>
                 <li>Inquiries in one inbox, applications in another</li>
                 <li>Google Forms and spreadsheets that didn’t talk</li>
@@ -457,7 +457,7 @@ export default function Work() {
               </ul>
             </div>
             <div className="ledger-col after">
-              <h4>After</h4>
+              <h3 className="ledger-head">After</h3>
               <ul>
                 <li>Apply online, save halfway, come back later</li>
                 <li>Contracts and forms signed in the browser</li>
