@@ -181,6 +181,36 @@ export default function Home() {
         </section>
 
         <section>
+          <h2 className="kicker">What they say</h2>
+          <div className="quote-pair">
+            <figure className="quote">
+              <blockquote>
+                Austin built us software that actually fits how we sell
+                sponsorship. We&apos;d been running the business out of
+                spreadsheets and inboxes — now it&apos;s one system, and the
+                paperwork chases itself. He knew what to build because he does
+                the job.
+              </blockquote>
+              <figcaption>
+                <b>Scott Wagner</b> · Owner, WagsWorks
+              </figcaption>
+            </figure>
+            <figure className="quote">
+              <blockquote>
+                We needed a new website and ended up with the whole admissions
+                system too. Families apply and sign online, reminders send
+                themselves, and our office can edit the site without calling
+                anyone. Austin built it around how our school actually works.
+              </blockquote>
+              <figcaption>
+                <b>Linda Abelkis</b> · Director, Boulder Waldorf Kindergarten
+                &amp; Preschool
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section>
           <div className="section-head">
             <div>
               <h2 className="kicker" style={{ marginBottom: 0 }}>

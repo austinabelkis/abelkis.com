@@ -431,6 +431,48 @@ section + section {
   color: var(--muted);
 }
 
+/* --- testimonial ---------------------------------------------------------- */
+
+.quote-pair {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(26px, 4vw, 48px);
+  margin-top: 30px;
+}
+
+@media (max-width: 760px) {
+  .quote-pair {
+    grid-template-columns: 1fr;
+  }
+}
+
+.quote {
+  margin: 0;
+  border-left: 3px solid var(--green);
+  padding-left: clamp(18px, 2.5vw, 28px);
+  max-width: 62ch;
+}
+
+.quote blockquote {
+  font-family: var(--font-display), serif;
+  font-size: clamp(1.25rem, 2.8vw, 1.6rem);
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.quote figcaption {
+  margin-top: 16px;
+  font-size: 0.88rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.quote figcaption b {
+  color: var(--ink);
+  font-weight: 700;
+}
+
 /* --- pairings ------------------------------------------------------------
    The one piece of the site that is a party trick: pick what you need, get a
    wine and an honest answer. Set like a by-the-glass list.
