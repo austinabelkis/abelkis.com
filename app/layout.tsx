@@ -22,14 +22,29 @@ export const metadata: Metadata = {
     template: "%s — Austin Abelkis",
   },
   description:
-    "A boutique studio of one. Events and sponsorships, websites and software, food and wine — Portland roots, Gothenburg address, working anywhere.",
+    "Websites, custom software, events and design for small businesses and nonprofits. One person, quick turnarounds, no account managers.",
   openGraph: {
-    title: "Austin Abelkis — producer, builder, sommelier",
+    title: "Austin Abelkis — websites, software, events, design",
     description:
-      "A boutique studio of one. Events and sponsorships, websites and software, food and wine.",
+      "For small businesses and nonprofits. One person, quick turnarounds, no account managers.",
     url: "https://abelkis.com",
     siteName: "Austin Abelkis",
     type: "website",
+    images: [
+      {
+        url: "/og.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Austin Abelkis — websites, software, events, design",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Austin Abelkis — websites, software, events, design",
+    description:
+      "For small businesses and nonprofits. One person, quick turnarounds, no account managers.",
+    images: ["/og.jpg"],
   },
 };
 

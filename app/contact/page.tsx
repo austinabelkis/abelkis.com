@@ -31,14 +31,20 @@ export default function Contact() {
 
       <section style={{ borderTop: "none", paddingTop: 0 }}>
         <div className="hook">
-          <p className="kicker">Found me through the Waldorf site?</p>
+          <p className="kicker">What it costs</p>
           <p>
+            Most projects land between <b>$1,500 and $5,000</b>, agreed as a
+            fixed price before I start, so there are no surprises halfway
+            through. If you want me to keep looking after it afterwards
+            that&apos;s <b>$0–200 a month</b> depending on how much you need —
+            and plenty of people need nothing, which is the idea.
+          </p>
+          <p style={{ marginTop: "1em" }}>
             Boulder Waldorf Kindergarten &amp; Preschool&apos;s new site — and
             the admissions and paperwork software behind it — is my work. If
-            your school or small business wants something at that level, I
-            build it for a fraction of agency cost: no account managers, no
-            retainer, and you talk directly to the person making it. Most
-            projects run in weeks rather than quarters.
+            that&apos;s the level you want, you get it without an agency in
+            the middle: no account managers, and you talk directly to the
+            person making it.
           </p>
         </div>
 

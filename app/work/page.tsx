@@ -817,12 +817,14 @@ export default function Work() {
             </p>
           </div>
           <div className="brand-block">
-            <h3>McMenamins &amp; Project Pabst</h3>
+            <h3>Pickathon, Edgefield &amp; Marymoor</h3>
             <p className="brand-role">Sponsorship · WagsWorks</p>
             <p>
-              Festival and venue sponsorship: packaging what a property has to
-              offer, pitching it, papering it, and delivering what was
-              promised once the gates open.
+              Festival and venue sponsorship for properties across the
+              Northwest — packaging what a venue has to offer, pitching it,
+              getting it papered, and delivering what was promised once the
+              gates open. Partners have included Kaiser Permanente, Toyota,
+              Bulleit, Poler and Brew Dr.
             </p>
           </div>
           <div className="brand-block">
