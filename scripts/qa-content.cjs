@@ -12,7 +12,10 @@ const ROUTES = ["/", "/work", "/about", "/cv", "/contact"];
 // Words that mean a draft escaped.
 const PLACEHOLDER = /\b(lorem ipsum|TODO|FIXME|TBD|coming soon|placeholder|xxx+)\b/i;
 // British spellings — the CV and the site should agree, and it's a US audience.
-const BRITISH = /\b(colour|organis|programme|realise|recognise|licence|centre|behaviour|favourite)\w*/i;
+// Bounded on both ends: a trailing \w* made "programme" match "programmers",
+// which is correct American English and was reported as a fault.
+const BRITISH =
+  /\b(colour|colours|coloured|organis(e|ed|es|ing|ation|ations)|programme|programmes|realis(e|ed|es|ing)|recognis(e|ed|es|ing)|licence|centre|centres|behaviour|behaviours|favourite|favourites)\b/i;
 
 (async () => {
   const browser = await chromium.launch();
