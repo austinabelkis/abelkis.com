@@ -45,12 +45,14 @@ export default function About() {
             time anyone shows up.
           </p>
           <p>
-            I did that for other people’s brands and events for ten years. Now
-            I build the websites and the software too — which used to mean
-            hiring a whole team of programmers, and doesn’t anymore. So
-            you’re not paying someone to learn your business first. I’ve
-            worked the floor and chased the invoices myself, and I move
-            quickly: most projects take weeks, not most of a year.
+            I’ve done that for other people’s brands and events for ten years,
+            and I still do — sponsorships and live events are half my week. The
+            newer half is that I build the websites and the software too, which
+            used to mean hiring a whole team of programmers and doesn’t
+            anymore. It’s the same job either way. So you’re not paying someone
+            to learn your business first: I’ve worked the floor and chased the
+            invoices myself, and I move quickly — most projects take weeks, not
+            most of a year.
           </p>
         </div>
 

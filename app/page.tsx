@@ -40,8 +40,9 @@ export default function Home() {
               <span className="lane-no">i</span>
               <h3>Produce</h3>
               <p>
-                Live events and sponsorships. Decks, deals, contracts,
-                guestlists, activations — and the show itself.
+                Live events and sponsorships — still half of what I do. Decks,
+                deals, contracts, guestlists, brand activations, and the show
+                itself on the day.
               </p>
             </div>
             <div className="lane" style={{ "--dot": "var(--wine)" } as React.CSSProperties}>
