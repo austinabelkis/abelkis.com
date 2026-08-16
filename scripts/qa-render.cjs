@@ -57,6 +57,19 @@ const INSPECT = () => {
       problems.push({ kind: "broken-image", detail: img.getAttribute("src") || "?" });
   }
 
+  // broken video — a 404 mp4 renders as a silent black box, which looks
+  // deliberate and is invisible to a build.
+  for (const v of document.querySelectorAll("video")) {
+    if (v.error || v.networkState === HTMLMediaElement.NETWORK_NO_SOURCE) {
+      problems.push({ kind: "broken-video", detail: v.getAttribute("src") || "?" });
+    } else if (v.readyState === 0) {
+      problems.push({
+        kind: "video-no-metadata",
+        detail: `${v.getAttribute("src")} — never reported dimensions`,
+      });
+    }
+  }
+
   // text the colour of its background
   for (const el of document.querySelectorAll("p, h1, h2, h3, li, a, span, dd, dt")) {
     // aria-hidden marks decoration — outlined numerals, ornaments. Their fill

@@ -69,8 +69,9 @@ const PAIRINGS: Pairing[] = [
 ];
 
 export default function Pairings() {
-  // First one open, so the device explains itself without a click.
-  const [open, setOpen] = useState<number | null>(0);
+  // All closed: six rows of one line each, so the homepage stays a menu
+  // rather than an essay.
+  const [open, setOpen] = useState<number | null>(null);
 
   return (
     <div className="pairings">

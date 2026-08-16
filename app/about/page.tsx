@@ -21,7 +21,29 @@ export default function About() {
       </section>
 
       <section style={{ paddingTop: 0, borderTop: "none" }}>
-        <div className="prose">
+        <p className="epigraph">
+          “Jack of all trades, master of none —{" "}
+          <em>though oftentimes better than a master of one.</em>”
+        </p>
+
+        <div className="prose" style={{ marginTop: 30 }}>
+          <p>
+            A festival sponsorship, a Friday night on the floor, a brand
+            campaign, a school’s enrollment system. Same job, different
+            clothes. Somebody has to hold the whole picture, sweat the details
+            nobody will ever notice, and have it all look effortless by the
+            time anyone shows up.
+          </p>
+          <p>
+            I did that for other people’s brands and events for ten years. Now
+            I build the websites and software too — which used to mean hiring a
+            dev team, and doesn’t anymore. So you’re not paying someone to
+            learn your business first. I’ve worked the floor and chased the
+            invoices, and I move fast: most projects are weeks, not quarters.
+          </p>
+        </div>
+
+        <div className="prose" style={{ marginTop: "2em" }}>
           <p>
             I started in kitchens and dining rooms — Pok Pok in Portland, The
             Wine Cask in Santa Barbara, Basil Flats in Longmont, and Tavolo

@@ -149,27 +149,30 @@ export default function Work() {
                 <dd>Internal — demo on request</dd>
               </div>
             </dl>
-            <figure className="figure" style={{ marginTop: 22 }}>
-              <div className="browser-frame">
-                <div className="bar">
-                  <i></i>
-                  <i></i>
-                  <i></i>
-                </div>
-                <img
-                  src="/img/wagsworks-os-login.webp"
-                  alt="WagsWorks OS sign-in screen"
-                  width={1440}
-                  height={900}
-                />
-              </div>
-              <figcaption>
-                The front door. The rooms behind it are full of real deals and
-                real dollars, so they stay private — ask and I’ll walk you
-                through on a call.
-              </figcaption>
-            </figure>
           </div>
+        </div>
+
+        <div className="case-shots">
+          <figure className="figure">
+            <div className="browser-frame">
+              <div className="bar">
+                <i></i>
+                <i></i>
+                <i></i>
+              </div>
+              <img
+                src="/img/wagsworks-os-login.webp"
+                alt="WagsWorks OS sign-in screen"
+                width={1440}
+                height={900}
+              />
+            </div>
+            <figcaption>
+              The front door. The rooms behind it are full of live deals, so
+              they stay private here — ask and I’ll walk you through on a
+              call.
+            </figcaption>
+          </figure>
         </div>
       </article>
 
@@ -226,8 +229,8 @@ export default function Work() {
                 <span>browser renders QA’d per release, desktop + phone</span>
               </div>
               <div className="stat">
-                <b>0</b>
-                <span>staff needed from me to run it day to day</span>
+                <b>140</b>
+                <span>application questions the office can reword itself</span>
               </div>
             </div>
             <p className="tech-note">
@@ -265,51 +268,56 @@ export default function Work() {
                 <dd>Boulder Waldorf Kindergarten &amp; Preschool</dd>
               </div>
             </dl>
-            <div className="shot-stack" style={{ marginTop: 22 }}>
-              <div className="shot-pair">
-                <figure className="figure">
-                  <div className="browser-frame">
-                    <div className="bar">
-                      <i></i>
-                      <i></i>
-                      <i></i>
-                    </div>
-                    <img
-                      src="/img/bwk-home.webp"
-                      alt="boulderwaldorf.com homepage"
-                      width={1440}
-                      height={900}
-                    />
-                  </div>
-                </figure>
-                <figure className="figure">
-                  <div className="phone-frame">
-                    <img
-                      src="/img/bwk-mobile.webp"
-                      alt="boulderwaldorf.com on a phone"
-                      width={390}
-                      height={844}
-                    />
-                  </div>
-                </figure>
-              </div>
-              <figure className="figure">
-                <div className="browser-frame">
-                  <div className="bar">
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                  </div>
-                  <img
-                    src="/img/bwk-programs.webp"
-                    alt="Programs page of the Boulder Waldorf site"
-                    width={1600}
-                    height={1000}
-                  />
-                </div>
-              </figure>
-            </div>
           </div>
+        </div>
+
+        <div className="case-shots">
+          <div className="shot-pair">
+            <figure className="figure">
+              <div className="browser-frame">
+                <div className="bar">
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                </div>
+                <img
+                  src="/img/bwk-home.webp"
+                  alt="The Boulder Waldorf homepage"
+                  width={1600}
+                  height={1000}
+                />
+              </div>
+            </figure>
+            <figure className="figure">
+              <div className="phone-frame">
+                <img
+                  src="/img/bwk-mobile.webp"
+                  alt="The Boulder Waldorf site on a phone"
+                  width={390}
+                  height={844}
+                />
+              </div>
+            </figure>
+          </div>
+          <figure className="figure">
+            <div className="browser-frame">
+              <div className="bar">
+                <i></i>
+                <i></i>
+                <i></i>
+              </div>
+              <img
+                src="/img/bwk-programs.webp"
+                alt="Programs page of the Boulder Waldorf site"
+                width={1600}
+                height={1000}
+              />
+            </div>
+            <figcaption>
+              The public side — programs, admissions, summer camp, and a
+              site-wide search, all editable by the office.
+            </figcaption>
+          </figure>
         </div>
 
         <div className="admin-showcase">
@@ -339,6 +347,39 @@ export default function Work() {
               </ul>
             </div>
           </div>
+        </div>
+
+        <div className="admin-showcase">
+          <p className="kicker">Thirty seconds inside the admin</p>
+          <figure className="figure video-figure">
+            <div className="browser-frame">
+              <div className="bar">
+                <i></i>
+                <i></i>
+                <i></i>
+              </div>
+              <video
+                src="/video/bwk-admin.mp4"
+                poster="/video/bwk-admin-poster.jpg"
+                autoPlay
+                muted
+                loop
+                playsInline
+                controls
+                preload="metadata"
+                width={1280}
+                height={800}
+                aria-label="A walkthrough of the Boulder Waldorf admin: a family profile with its admissions milestones and paperwork checklist, an application in review, and the editable email templates."
+              />
+            </div>
+            <figcaption>
+              A family arrives, their paperwork is tracked, their application
+              is reviewed, and the emails that go out are edited in plain
+              English — all by the office, with nobody phoning a developer.
+              Recorded against an invented family that was deleted straight
+              after.
+            </figcaption>
+          </figure>
         </div>
 
         <div className="admin-showcase">
@@ -476,22 +517,25 @@ export default function Work() {
                 <dd>English · Swedish</dd>
               </div>
             </dl>
-            <figure className="figure" style={{ marginTop: 22 }}>
-              <div className="browser-frame">
-                <div className="bar">
-                  <i></i>
-                  <i></i>
-                  <i></i>
-                </div>
-                <img
-                  src="/img/somm-academy.webp"
-                  alt="Sommeliers Academy Sweden homepage"
-                  width={1440}
-                  height={900}
-                />
-              </div>
-            </figure>
           </div>
+        </div>
+
+        <div className="case-shots">
+          <figure className="figure">
+            <div className="browser-frame">
+              <div className="bar">
+                <i></i>
+                <i></i>
+                <i></i>
+              </div>
+              <img
+                src="/img/somm-academy.webp"
+                alt="Sommeliers Academy Sweden homepage"
+                width={1600}
+                height={1000}
+              />
+            </div>
+          </figure>
         </div>
       </article>
 
@@ -555,22 +599,25 @@ export default function Work() {
                 <dd>An aging Squarespace template</dd>
               </div>
             </dl>
-            <figure className="figure" style={{ marginTop: 22 }}>
-              <div className="browser-frame">
-                <div className="bar">
-                  <i></i>
-                  <i></i>
-                  <i></i>
-                </div>
-                <img
-                  src="/img/wagsworks-built.webp"
-                  alt="The rebuilt WagsWorks site: 'Live music sponsorship done right.'"
-                  width={1600}
-                  height={1000}
-                />
-              </div>
-            </figure>
           </div>
+        </div>
+
+        <div className="case-shots">
+          <figure className="figure">
+            <div className="browser-frame">
+              <div className="bar">
+                <i></i>
+                <i></i>
+                <i></i>
+              </div>
+              <img
+                src="/img/wagsworks-built.webp"
+                alt="The rebuilt WagsWorks site: 'Live music sponsorship done right.'"
+                width={1600}
+                height={1000}
+              />
+            </div>
+          </figure>
         </div>
       </article>
 

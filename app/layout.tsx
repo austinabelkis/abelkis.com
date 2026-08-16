@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Fraunces, Inter } from "next/font/google";
 import Link from "next/link";
+import Nav from "./Nav";
 import "./globals.css";
 
 const fraunces = Fraunces({
@@ -43,12 +44,7 @@ export default function RootLayout({
             <Link href="/" className="wordmark">
               Austin&nbsp;Abelkis
             </Link>
-            <nav className="site-nav" aria-label="Site">
-              <Link href="/work">Work</Link>
-              <Link href="/about">About</Link>
-              <Link href="/cv">CV</Link>
-              <Link href="/contact">Contact</Link>
-            </nav>
+            <Nav />
           </div>
         </header>
 

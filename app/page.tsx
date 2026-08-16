@@ -30,48 +30,8 @@ export default function Home() {
         </section>
       </div>
 
-      <div className="rule-band">
-        <div className="wrap">
-          <p className="epigraph">
-            “Jack of all trades, master of none —{" "}
-            <em>though oftentimes better than a master of one.</em>”
-          </p>
-        </div>
-      </div>
-
       <div className="wrap">
-        <section>
-          <div className="two-col">
-            <div>
-              <p className="kicker">The through-line</p>
-              <h2 className="display">
-                It’s all production.
-              </h2>
-            </div>
-            <div className="prose">
-              <p>
-                A festival sponsorship, a Friday night on the floor, a brand
-                campaign, a school’s enrollment system. Same job, different
-                clothes. Somebody has to hold the whole picture, sweat the
-                details nobody will ever notice, and have it all look effortless
-                by the time anyone shows up.
-              </p>
-              <p>
-                I did that for other people’s brands and events for ten
-                years. Now I build the websites and software too — which used
-                to mean hiring a dev team, and doesn’t anymore.
-              </p>
-              <p>
-                So you’re not paying someone to learn your business first.
-                I’ve run small businesses, worked the floor, chased the
-                invoices. I know what you need before you finish explaining it,
-                and I move fast — most projects are weeks, not quarters.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <section>
+        <section className="first-section">
           <div className="section-head">
             <p className="kicker" style={{ marginBottom: 0 }}>
               Four things, one person
@@ -229,7 +189,9 @@ export default function Home() {
                 Order by the glass
               </p>
             </div>
-            <p className="aside-note">Pick what you need. I’ll pair it.</p>
+            <p className="aside-note">
+              Pick a problem, get a wine and an honest answer.
+            </p>
           </div>
           <Pairings />
         </section>
