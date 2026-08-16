@@ -232,6 +232,39 @@ section + section {
   align-items: start;
 }
 
+/* --- about intro ---------------------------------------------------------- */
+
+.about-intro {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: clamp(24px, 4vw, 44px);
+  align-items: center;
+}
+
+.portrait {
+  margin: 0;
+  border: 1.5px solid var(--ink);
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--card);
+  box-shadow: 7px 7px 0 color-mix(in srgb, var(--green) 20%, transparent);
+}
+
+.portrait img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 640px) {
+  .about-intro {
+    grid-template-columns: 1fr;
+  }
+
+  .portrait {
+    max-width: 200px;
+  }
+}
+
 /* --- epigraph ------------------------------------------------------------ */
 
 .epigraph {
@@ -920,6 +953,38 @@ section + section {
 .brand-block p {
   font-size: 0.96rem;
   color: var(--muted);
+}
+
+/* The photo block spans both columns so the two shots sit side by side under
+   the brand text rather than squeezing into one column. */
+.brand-photos {
+  grid-column: 1 / -1;
+  border-top: none;
+  padding-top: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  gap: clamp(14px, 2vw, 22px);
+  align-items: start;
+}
+
+.brand-photos figure img {
+  border: 1.5px solid var(--ink);
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+}
+
+.brand-photos figcaption {
+  grid-column: 1 / -1;
+  font-size: 0.9rem;
+  color: var(--muted);
+  max-width: 68ch;
+}
+
+@media (max-width: 620px) {
+  .brand-photos {
+    grid-template-columns: 1fr;
+  }
 }
 
 .deck-showcase {

@@ -21,10 +21,20 @@ export default function About() {
       </section>
 
       <section style={{ paddingTop: 0, borderTop: "none" }}>
-        <p className="epigraph">
-          “Jack of all trades, master of none —{" "}
-          <em>though oftentimes better than a master of one.</em>”
-        </p>
+        <div className="about-intro">
+          <figure className="portrait">
+            <img
+              src="/img/austin-portrait.webp"
+              alt="Austin Abelkis"
+              width={800}
+              height={800}
+            />
+          </figure>
+          <p className="epigraph">
+            “Jack of all trades, master of none —{" "}
+            <em>though oftentimes better than a master of one.</em>”
+          </p>
+        </div>
 
         <div className="prose" style={{ marginTop: 30 }}>
           <p>

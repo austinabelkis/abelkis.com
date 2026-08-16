@@ -765,6 +765,29 @@ export default function Work() {
               weekend of conversations into something the brand can act on.
             </p>
           </div>
+          <div className="brand-block brand-photos">
+            <figure className="figure">
+              <img
+                src="/img/chaco-activation.webp"
+                alt="The ReChaco Roving Repairs bus set up at an activation, with the repair station and crew"
+                width={1400}
+                height={1049}
+              />
+            </figure>
+            <figure className="figure">
+              <img
+                src="/img/chaco-crew.webp"
+                alt="Crew on the roof of the Chaco rig, South Congress, Austin"
+                width={1000}
+                height={1334}
+              />
+            </figure>
+            <figcaption className="figure">
+              ReChaco Roving Repairs on the road — a converted bus that fixed
+              people’s sandals on the spot. The kind of activation where the
+              logistics are the whole product.
+            </figcaption>
+          </div>
           <div className="brand-block">
             <h3>Jack Daniel’s, Red Bull &amp; Campari</h3>
             <p className="brand-role">
