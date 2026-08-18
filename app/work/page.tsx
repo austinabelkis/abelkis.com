@@ -30,35 +30,24 @@ export default function Work() {
           </div>
           <div className="prose">
             <p>
-              Every small organization has had this exact conversation. You
-              need software. You find something close — Asana, Monday, Slack,
-              or something built for your industry at a few hundred a month.
-              It does about <b>75% of what you actually need</b>.
+              You need software. You try Asana, Monday, or the one built for
+              your industry. It does about <b>75% of what you actually need</b>.
             </p>
             <p>
-              So you pay for all of it, forever. You bend your process around
-              the quarter it got wrong. And you hand your team one more login
-              to remember, one more tool to learn, one more place where
-              information goes to hide. None of those products are bad. They
-              just weren’t built <i>around</i> your business, because they
-              were built around ten thousand businesses at once.
+              So you pay every month, forever, and bend how you work around
+              the part it got wrong. One more login. One more tool to learn.
             </p>
             <p>
-              That’s why WagsWorks got its own software, and why Boulder
-              Waldorf did too, instead of another monthly subscription. The way
-              a sponsorship agency chases paperwork, and the order a preschool
-              takes families through enrollment, aren’t generic problems —
-              they’re that business, written down. Software built to match the
-              real job disappears into the day. Software you have to work
-              around never does.
+              I build the whole thing instead — software shaped to how your
+              business already runs. That’s what WagsWorks and Boulder Waldorf
+              got in place of another subscription, and it’s why it disappears
+              into the day instead of getting in the way.
             </p>
             <p>
-              Custom software used to mean a six-figure budget and a year of
-              discovery meetings. It doesn’t anymore. Boulder Waldorf went
-              from nothing to a full public site plus a working admissions and
-              paperwork platform in a matter of months, by one person, for a
-              fraction of what the 75%-fit subscription would have cost over
-              the same period.
+              This used to take a team and a six-figure budget. Boulder
+              Waldorf’s site and admissions system took months, one person,
+              and less than most businesses spend renting software that
+              almost fits.
             </p>
           </div>
         </div>
@@ -777,8 +766,8 @@ export default function Work() {
               Field manager, national activations · The Field Scout
             </p>
             <p>
-              Led field teams on the road: staffing, onsite logistics,
-              inventory, client communication, and the reporting that turns a
+              Led field teams on the road: onsite logistics, inventory,
+              client communication, and the reporting that turns a
               weekend of conversations into something the brand can act on.
             </p>
           </div>
@@ -871,7 +860,11 @@ export default function Work() {
         <div className="menu-list">
           <div className="menu-row">
             <div className="menu-line">
-              <h3>WagsWorks</h3>
+              <h3>
+                <a href="https://www.wagsworks.com/" target="_blank" rel="noopener">
+                  WagsWorks
+                </a>
+              </h3>
               <span className="leader"></span>
               <span className="when">2022 — present</span>
             </div>
@@ -897,13 +890,17 @@ export default function Work() {
             </div>
             <p>
               Field manager for national brand activations, including Subaru
-              and Chaco Footwear programs — staffing, logistics, reporting,
-              execution.
+              and Chaco Footwear programs — leading the crew, running the
+              logistics, reporting back, getting it done.
             </p>
           </div>
           <div className="menu-row">
             <div className="menu-line">
-              <h3>MusicPortland</h3>
+              <h3>
+                <a href="https://www.musicportland.org/" target="_blank" rel="noopener">
+                  MusicPortland
+                </a>
+              </h3>
               <span className="leader"></span>
               <span className="when">2018 — 2019</span>
             </div>
@@ -936,7 +933,11 @@ export default function Work() {
           </div>
           <div className="menu-row">
             <div className="menu-line">
-              <h3>TEDxPortland</h3>
+              <h3>
+                <a href="https://www.tedxportland.com/" target="_blank" rel="noopener">
+                  TEDxPortland
+                </a>
+              </h3>
               <span className="leader"></span>
               <span className="when">2014 onward</span>
             </div>

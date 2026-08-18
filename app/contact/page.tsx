@@ -33,9 +33,9 @@ export default function Contact() {
         <div className="hook">
           <p className="kicker">What it costs</p>
           <p>
-            Most projects land between <b>$1,500 and $5,000</b>, agreed as a
-            fixed price before I start, so there are no surprises halfway
-            through. If you want me to keep looking after it afterwards
+            Most projects run <b>$1,500–$5,000+</b> depending on size — always a
+            fixed price, agreed before I start, so there are no surprises
+            halfway through. If you want me to keep looking after it afterwards
             that&apos;s <b>$0–200 a month</b> depending on how much you need —
             and plenty of people need nothing, which is the idea.
           </p>

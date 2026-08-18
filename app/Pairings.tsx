@@ -14,14 +14,14 @@ const NEEDS: Need[] = [
   {
     need: "We need a website that doesn’t embarrass us",
     work: "A site that loads fast, reads properly on a phone, and that you can change yourself afterwards without calling anyone or paying a monthly fee.",
-    shape: "Usually $1,500–$5,000 · 3–6 weeks · fixed price, agreed before I start",
+    shape: "Usually $1,500–$5,000+ · 3–6 weeks · fixed price, agreed before I start",
     wine: "Chablis",
     note: "no oak, no makeup, nowhere to hide — all structure",
   },
   {
     need: "Our spreadsheet has become a monster",
     work: "Software built around the way you already work: the jobs, the paperwork, the invoices, the reminders. One place instead of six, and it nags itself instead of nagging you.",
-    shape: "Usually $2,500–$5,000 · 6–12 weeks · fixed price, agreed before I start",
+    shape: "Usually $2,500–$5,000+ · 6–12 weeks · fixed price, agreed before I start",
     wine: "Barolo",
     note: "difficult early, worth it once someone gives it the time",
   },

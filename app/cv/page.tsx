@@ -70,7 +70,7 @@ export default function CV() {
           when="Jan 2020 — present"
           bullets={[
             "Lead field teams for national brand activations, including Subaru and Chaco Footwear programs.",
-            "Manage onsite logistics, staffing, inventory, reporting, and client communication in fast-moving environments.",
+            "Run onsite logistics, inventory, reporting, and client communication in fast-moving environments.",
             "Translate consumer feedback and event results into practical post-event insights.",
           ]}
         />

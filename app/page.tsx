@@ -28,9 +28,7 @@ export default function Home() {
       <div className="wrap">
         <section className="first-section">
           <div className="section-head">
-            <h2 className="kicker" style={{ marginBottom: 0 }}>
-              Four things, one person
-            </h2>
+            <h2 className="sr-only">What I do</h2>
             <p className="aside-note">
               Mostly for small businesses and nonprofits
             </p>
