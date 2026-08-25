@@ -38,24 +38,20 @@ targets, and every pairing rendering open because a class selector beat the
 DNS changes take up to a few hours to propagate. Vercel issues the HTTPS
 certificate automatically once the records resolve.
 
-## Things to confirm before launch
+## Things still open
 
-- [ ] **Photo.** There is no portrait on the site. The best existing one
-      (rose garden, white t-shirt) is well shot but casual and several years
-      old. A current photo on the About page would help the "you deal
-      directly with me" pitch — worth 20 minutes with a decent camera.
-- [ ] **The before/after ledgers** on the Work page describe how Boulder
-      Waldorf and WagsWorks operated *before* the software. Written from
-      what the projects imply — check the specifics are fair.
-- [ ] **Sommeliers Academy** — role is stated as "Website & growth
-      strategy". Adjust if the scope was different.
-- [ ] **WagsWorks site rebuild** — presented as your rebuild replacing the
-      old Squarespace site, linking to the GitHub Pages preview. If it goes
-      live at wagsworks.com, update the link.
-- [ ] **Dates** — TEDxPortland is "2014 onward"; fine-dining is "ongoing".
-      Tighten if you want exact ranges.
+- [ ] **Footer credit on boulderwaldorf.com** ("Site by Austin Abelkis" →
+      abelkis.com) — the main referral channel; needs a yes from the school.
+- [ ] **abelkis.com in Austin's email signature.**
+- [ ] **Link swaps on other launches**: when the new BWK site takes over
+      boulderwaldorf.com, point the case study there instead of the
+      vercel.app preview; same for wagsworks.com when the rebuild ships.
+- [ ] **Sommeliers Academy** — role stated as "Website & growth strategy";
+      adjust if the scope was different.
 - [ ] **CV PDF** at `public/Austin-Abelkis-CV.pdf` is the June 2026 designed
       resume. Replace when it changes.
+- [ ] **WagsWorks team photos are swapped at the source** —
+      `~/assets/team/austin-abelkis.jpg` is Scott and vice versa.
 
 ## Content decisions on record
 
@@ -79,26 +75,11 @@ certificate automatically once the records resolve.
   no family data, and deletes everything in a `finally` block. Never
   screenshot a list page — those contain real families.
 
-## Still to do
+## WagsWorks OS screenshot rules (they're live on /work)
 
-- **WagsWorks OS interior shots.** The case study copy is written and waiting
-  — only the sign-in screen is currently shown. Four screens are worth
-  having: **Deals** (client cards with the red/amber/green stage bars),
-  **To Do** (including the quick-add hint, since parsing a due date,
-  assignee and priority out of a typed sentence is the single most
-  impressive detail), **Revenue**, and **Invoices** with something overdue.
-
-  These can't be captured automatically: there is no service-role key on this
-  machine, so unlike Boulder Waldorf no demo account can be minted, and
-  screenshots taken inside the assistant's browser pane can't be written to
-  disk. Grab them with Cmd+Shift+4 and they can be cropped and redacted from
-  the Desktop.
-
-  Before publishing any of them: blur every dollar figure, and blur
-  individual people's names on guestlists (those are private individuals).
-  Sponsor and festival names can stay — they read as a client roster.
-  **Keep the "Crystal Blocks" / "West Side Entertainment District" task out
-  entirely** — that is a working name for an unannounced McMenamins property.
-
-- **A recording of WagsWorks OS**, same as the Boulder Waldorf one, once the
-  above is sorted.
+Real screens from the running platform, captured by Austin, redacted before
+publishing: every dollar figure blurred, private individuals' names on
+guestlists blurred. Client and festival names stay — they're the roster.
+The "Crystal Blocks" / "West Side Entertainment District" task is cropped
+out entirely: an unannounced McMenamins property's working name must never
+appear, and a crop can't be reversed the way a blur sometimes can.
