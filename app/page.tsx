@@ -201,7 +201,7 @@ export default function Home() {
                 anyone. Austin built it around how our school actually works.
               </blockquote>
               <figcaption>
-                <b>Linda Abelkis</b> · Director, Boulder Waldorf Kindergarten
+                <b>Linda Fussell</b> · Director, Boulder Waldorf Kindergarten
                 &amp; Preschool
               </figcaption>
             </figure>
