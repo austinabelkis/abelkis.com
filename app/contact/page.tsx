@@ -41,17 +41,18 @@ export default function Contact() {
           </p>
           <p style={{ marginTop: "1em" }}>
             Boulder Waldorf Kindergarten &amp; Preschool&apos;s new site — and
-            the admissions and paperwork software behind it — is my work. If
-            that&apos;s the level you want, you get it without an agency in
-            the middle: no account managers, and you talk directly to the
-            person making it.
+            the admissions and paperwork software behind it — is my work.
+            Swap admissions season for bookings, memberships, or sponsor
+            deals — whatever your version is, that&apos;s the level you get,
+            without an agency in the middle: no account managers, and you
+            talk directly to the person making it.
           </p>
         </div>
 
         <div className="prose" style={{ marginTop: 44 }}>
           <p className="kicker">Good fits right now</p>
           <ul className="feature-list">
-            <li>Websites for schools, restaurants, venues, and small businesses</li>
+            <li>Websites for restaurants, venues, schools — any small business or nonprofit</li>
             <li>
               Software built for your business, when the spreadsheet has stopped
               coping
