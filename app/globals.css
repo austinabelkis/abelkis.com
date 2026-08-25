@@ -290,7 +290,7 @@ section + section {
 
 .lane-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: clamp(20px, 3vw, 36px);
   margin-top: 44px;
 }
@@ -1290,7 +1290,7 @@ section + section {
 
 @media (max-width: 960px) {
   .lane-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
   }
 
   .two-col {

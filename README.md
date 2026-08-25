@@ -63,8 +63,13 @@ certificate automatically once the records resolve.
   marked "discreet". Add it when the project is public.
 - **No phone number published.** Email and LinkedIn only; the CV PDF still
   carries the number for people who ask for it.
-- **No prices published.** Soft language only ("boutique rates", "weeks not
-  quarters") so quoting stays per project.
+- **The wine offer is deliberately cut (Aug 2026).** No Serve lane, no
+  wine-list service, no sommelier pitch — Austin doesn't want to be hired
+  for wine work. The biography stays: the About page kitchens paragraph,
+  the ASI cert in the facts grid, the CV entry, and the Sommeliers Academy
+  case study (which is web work). Don't reintroduce the offer.
+- **Prices are published deliberately**: $1,500–$5,000+ fixed, $0–200/month
+  optional aftercare.
 - **wagsworks.com (Squarespace) is not shown** — it is the old site being
   replaced, and it isn't your design work.
 - **Screenshots of admin software must only ever show invented records.**

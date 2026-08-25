@@ -40,13 +40,6 @@ const NEEDS: Need[] = [
     note: "same occasion as the big houses, made by whoever farmed it",
   },
   {
-    need: "Our wine list needs help",
-    work: "Building the list, pricing it, writing pairings, and training your staff so they can talk about it confidently instead of reciting a script.",
-    shape: "One visit, or ongoing · ASI-certified sommelier",
-    wine: "Fino Sherry",
-    note: "what sommeliers pour each other, and almost nobody lists",
-  },
-  {
     need: "Honestly, we’re not sure yet",
     work: "A conversation, free, where I tell you honestly what I think you need — including when that’s nothing, or somebody other than me.",
     shape: "30 minutes · no sales pitch, no deck",

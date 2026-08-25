@@ -57,7 +57,6 @@ export default function Contact() {
               coping
             </li>
             <li>Sponsorship and event production</li>
-            <li>Wine lists, wine programs, and training your staff</li>
           </ul>
           <p className="muted" style={{ marginTop: 22, fontSize: "0.92rem" }}>
             Based in Gothenburg (CET), Portland roots — US hours are genuinely

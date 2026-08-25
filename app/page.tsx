@@ -60,17 +60,6 @@ export default function Home() {
                 currently pretending to do.
               </p>
             </div>
-            <div
-              className="lane"
-              style={{ "--dot": "var(--gold)" } as React.CSSProperties}
-            >
-              <span className="lane-no">iv</span>
-              <h3>Serve</h3>
-              <p>
-                Food and wine, Santa Barbara to Gothenburg. ASI-certified
-                sommelier — lists, programs, and staff training.
-              </p>
-            </div>
           </div>
         </section>
 

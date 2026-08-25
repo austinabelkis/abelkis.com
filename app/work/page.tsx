@@ -615,8 +615,8 @@ export default function Work() {
               </p>
             </div>
             <p className="tech-note">
-              A reminder that the lanes aren’t separate businesses —
-              knowing the industry is why the website works.
+              Knowing the industry is why the website works — the brief
+              needed no translating.
             </p>
           </div>
           <div>
