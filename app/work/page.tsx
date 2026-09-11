@@ -698,7 +698,7 @@ export default function Work() {
             <p className="tech-note">
               I do the sponsorship work at WagsWorks too — decks, packages,
               contracts, and partner delivery for festivals and concert series
-              across the US. Selling the thing and designing how it’s sold
+              across the US. Making the thing and designing how it’s sold
               turn out to be the same skill.
             </p>
           </div>
@@ -810,9 +810,9 @@ export default function Work() {
             <p className="brand-role">Sponsorship · WagsWorks</p>
             <p>
               Festival and venue sponsorship for properties across the
-              Northwest — packaging what a venue has to offer, pitching it,
-              getting it papered, and delivering what was promised once the
-              gates open. Partners have included Kaiser Permanente, Toyota,
+              Northwest — packaging what a venue has to offer, building the
+              pitch, getting it papered, and delivering what was promised once
+              the gates open. Partners have included Kaiser Permanente, Toyota,
               Bulleit, Poler and Brew Dr.
             </p>
           </div>
@@ -869,9 +869,9 @@ export default function Work() {
               <span className="when">2022 — present</span>
             </div>
             <p>
-              Marketing producer &amp; operations — sponsorship sales,
-              activation planning, and partner delivery for festivals and live
-              events across the US.
+              Marketing producer &amp; operations — sponsorship decks and
+              contracts, activation planning, and partner delivery for
+              festivals and live events across the US.
             </p>
           </div>
           <div className="menu-row">
