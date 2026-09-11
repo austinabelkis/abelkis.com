@@ -609,7 +609,7 @@ export default function Work() {
                 into enrollments.
               </p>
               <p>
-                This one is personal: I hold an ASI Level 1 certification
+                This one is personal: I hold an ASI Level 2 certification
                 myself, so the brief needed no translating. When the client
                 says “blind tasting,” I know exactly what the room looks like.
               </p>

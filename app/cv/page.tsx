@@ -157,7 +157,7 @@ export default function CV() {
         <Entry
           title="ASI Sommelier Certification"
           where="Association de la Sommellerie Internationale"
-          when="Level 1"
+          when="Level 2"
           bullets={[
             "Backed by years working fine dining and wine service.",
           ]}

@@ -85,7 +85,7 @@ export default function About() {
           </p>
           <p>
             These days I live in Gothenburg, where the wine chapter got
-            formal: an ASI Level 1 sommelier certification on top of years of
+            formal: an ASI Level 2 sommelier certification on top of years of
             fine-dining service — including a stretch at The Wine Cask in
             Santa Barbara, which is the kind of list that teaches you fast.
             The lanes look unrelated on paper. They’re not. It’s all
@@ -112,7 +112,7 @@ export default function About() {
           </div>
           <div>
             <dt>Certification</dt>
-            <dd>ASI Sommelier Certification, Level 1</dd>
+            <dd>ASI Sommelier Certification, Level 2</dd>
           </div>
         </dl>
       </section>
