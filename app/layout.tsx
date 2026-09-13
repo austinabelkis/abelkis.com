@@ -19,7 +19,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://abelkis.com"),
   title: {
-    default: "Austin Abelkis — producer, builder, sommelier",
+    default: "Austin Abelkis — websites, software, events, design",
     template: "%s — Austin Abelkis",
   },
   description:

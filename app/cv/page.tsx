@@ -67,17 +67,17 @@ export default function CV() {
         <Entry
           title="The Field Scout"
           where="Field Manager / Experiential Marketing Lead · USA"
-          when="Jan 2020 — present"
+          when="Feb 2020 — Sep 2026"
           bullets={[
-            "Lead field teams for national brand activations, including Subaru and Chaco Footwear programs.",
-            "Run onsite logistics, inventory, reporting, and client communication in fast-moving environments.",
-            "Translate consumer feedback and event results into practical post-event insights.",
+            "Led field teams for national brand activations, including Subaru and Chaco Footwear programs.",
+            "Ran onsite logistics, inventory, reporting, and client communication in fast-moving environments.",
+            "Translated consumer feedback and event results into practical post-event insights.",
           ]}
         />
         <Entry
           title="MusicPortland"
           where="Marketing & Operations Manager · Portland, USA"
-          when="Oct 2018 — Dec 2019"
+          when="Apr 2020 — Jun 2021"
           bullets={[
             "Produced livestreams, industry meetings, and community events for Portland's music industry association.",
             "Managed social media, website, newsletters, databases, invoicing, and stakeholder communication.",
@@ -87,7 +87,7 @@ export default function CV() {
         <Entry
           title="DoStuff Media / 503 Media & Events"
           where="Brand Manager / Producer · Portland, USA"
-          when="Jun 2015 — Sep 2018"
+          when="Jun 2015 — Feb 2020"
           bullets={[
             "Managed content, promotions, and digital campaigns for local events, venues, and brand partners — including Jack Daniel's, Red Bull, Campari Group, Abercrombie & Fitch, McMenamins, Brew Dr., RISE Brewing, and Poler.",
             "Produced events from large-scale (Portland Derby, Polo Noir, WINGS speaker series) to corporate off-sites and activations for Nike, Daimler, and RGA.",
@@ -130,7 +130,7 @@ export default function CV() {
         <Entry
           title="TEDxPortland"
           where="Production volunteer"
-          when="2014 onward"
+          when="2015 — 2019"
           bullets={[
             "Year-round event production with a 100-person volunteer crew; partner and marketing communication.",
           ]}
@@ -193,7 +193,7 @@ export default function CV() {
         <div className="tag-row" style={{ marginTop: 10 }}>
           {[
             "English (native)",
-            "Swedish (conversational)",
+            "Swedish (working proficiency)",
             "Spanish (intermediate)",
             "German (basic)",
           ].map((t) => (

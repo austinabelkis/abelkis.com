@@ -101,7 +101,7 @@ export default function About() {
           </div>
           <div>
             <dt>Languages</dt>
-            <dd>English (native) · Swedish (conversational) · Spanish (intermediate) · German (basic)</dd>
+            <dd>English (native) · Swedish (working proficiency) · Spanish (intermediate) · German (basic)</dd>
           </div>
           <div>
             <dt>Education</dt>

@@ -886,7 +886,7 @@ export default function Work() {
                 </a>
               </h3>
               <span className="leader"></span>
-              <span className="when">2020 — present</span>
+              <span className="when">2020 — 2026</span>
             </div>
             <p>
               Field manager for national brand activations, including Subaru
@@ -902,7 +902,7 @@ export default function Work() {
                 </a>
               </h3>
               <span className="leader"></span>
-              <span className="when">2018 — 2019</span>
+              <span className="when">2020 — 2021</span>
             </div>
             <p>
               Marketing &amp; operations for Portland’s music industry
@@ -922,7 +922,7 @@ export default function Work() {
                 / 503 Media &amp; Events
               </h3>
               <span className="leader"></span>
-              <span className="when">2015 — 2018</span>
+              <span className="when">2015 — 2020</span>
             </div>
             <p>
               Brand manager &amp; producer. Campaigns and events for Jack
@@ -939,7 +939,7 @@ export default function Work() {
                 </a>
               </h3>
               <span className="leader"></span>
-              <span className="when">2014 onward</span>
+              <span className="when">2015 — 2019</span>
             </div>
             <p>
               Production volunteer, year-round — the passion project, alongside
