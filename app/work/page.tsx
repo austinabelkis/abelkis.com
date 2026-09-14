@@ -763,7 +763,7 @@ export default function Work() {
           <div className="brand-block">
             <h3>Subaru &amp; Chaco Footwear</h3>
             <p className="brand-role">
-              Field manager, national activations · The Field Scout
+              Field crew manager, national activations · The Field Scout
             </p>
             <p>
               Led field teams on the road: onsite logistics, inventory,
@@ -869,7 +869,7 @@ export default function Work() {
               <span className="when">2022 — present</span>
             </div>
             <p>
-              Marketing producer &amp; operations — sponsorship decks and
+              Producer, partnerships &amp; operations — sponsorship decks and
               contracts, activation planning, and partner delivery for
               festivals and live events across the US.
             </p>
@@ -889,7 +889,7 @@ export default function Work() {
               <span className="when">2020 — 2026</span>
             </div>
             <p>
-              Field manager for national brand activations, including Subaru
+              Field crew manager for national brand activations, including Subaru
               and Chaco Footwear programs — leading the crew, running the
               logistics, reporting back, getting it done.
             </p>
@@ -905,7 +905,7 @@ export default function Work() {
               <span className="when">2020 — 2021</span>
             </div>
             <p>
-              Marketing &amp; operations for Portland’s music industry
+              Marketing producer for Portland’s music industry
               association — livestreams, industry meetings, community events.
             </p>
           </div>

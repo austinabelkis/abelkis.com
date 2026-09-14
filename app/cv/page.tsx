@@ -55,38 +55,38 @@ export default function CV() {
         <h2 className="kicker">Experience</h2>
         <Entry
           title="WagsWorks"
-          where="Marketing Producer / Operations Manager · Remote / Portland, USA"
+          where="Producer, Partnerships & Operations · Remote / Portland, USA"
           when="Jan 2022 — present"
           bullets={[
-            "Support sponsorship sales, activation planning, and partner delivery for festivals, concert series, and live events across the US.",
-            "Build sponsorship decks, package deliverables, and manage contracts, invoices, COIs, W9s, and partner approvals.",
-            "Coordinate between event owners, sponsors, agencies, and internal teams across timelines, assets, and reporting.",
+            "Produce sponsorships end to end for US festivals and concert series: pitch decks, packages, contracts, COIs, and partner approvals.",
+            "Oversee on-site activations and deliver post-event recaps and reporting.",
+            "Run invoicing, bookkeeping, and financial tracking across clients and events.",
             "Designed and built WagsWorks OS — the internal platform the team runs daily: deal pipeline, paperwork tracking, invoicing, guestlists, revenue reporting, and team chat.",
           ]}
         />
         <Entry
           title="The Field Scout"
-          where="Field Manager / Experiential Marketing Lead · USA"
+          where="Field Crew Manager (Subaru + Chaco Footwear) · USA"
           when="Feb 2020 — Sep 2026"
           bullets={[
             "Led field teams for national brand activations, including Subaru and Chaco Footwear programs.",
-            "Ran onsite logistics, inventory, reporting, and client communication in fast-moving environments.",
-            "Translated consumer feedback and event results into practical post-event insights.",
+            "Managed onsite logistics, inventory, reporting, client communication, and event execution in fast-moving environments.",
+            "Translated consumer feedback and event results into practical post-event insights for clients and internal teams.",
           ]}
         />
         <Entry
           title="MusicPortland"
-          where="Marketing & Operations Manager · Portland, USA"
+          where="Marketing Producer · Portland, USA"
           when="Apr 2020 — Jun 2021"
           bullets={[
             "Produced livestreams, industry meetings, and community events for Portland's music industry association.",
-            "Managed social media, website, newsletters, databases, invoicing, and stakeholder communication.",
+            "Managed social media, website updates, newsletters, databases, invoicing, and stakeholder communication.",
             "Supported the Executive Director with client relations, grant administration, and operational planning.",
           ]}
         />
         <Entry
           title="DoStuff Media / 503 Media & Events"
-          where="Brand Manager / Producer · Portland, USA"
+          where="Brand Manager · Portland, USA"
           when="Jun 2015 — Feb 2020"
           bullets={[
             "Managed content, promotions, and digital campaigns for local events, venues, and brand partners — including Jack Daniel's, Red Bull, Campari Group, Abercrombie & Fitch, McMenamins, Brew Dr., RISE Brewing, and Poler.",

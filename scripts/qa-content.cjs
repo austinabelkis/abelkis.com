@@ -91,6 +91,10 @@ const BRITISH =
     if (ph) problems.push(`${route}: placeholder copy — "${ph[0]}"`);
     const br = data.text.match(BRITISH);
     if (br) problems.push(`${route}: British spelling — "${br[0]}"`);
+    // JSX attribute strings (where="…") don't process escapes, so a ’
+    // there ships to readers as six literal characters.
+    const esc = data.text.match(/\\u[0-9a-fA-F]{4}|\\x[0-9a-fA-F]{2}/);
+    if (esc) problems.push(`${route}: literal escape sequence in copy — "${esc[0]}"`);
 
     for (const l of data.links) {
       if (!l.href) {
