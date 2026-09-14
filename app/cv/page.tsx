@@ -149,6 +149,12 @@ export default function CV() {
       <div className="cv-section">
         <h2 className="kicker">Education &amp; certification</h2>
         <Entry
+          title="University of Gothenburg"
+          where="Master in Communication · Gothenburg, Sweden"
+          when="2026 — 2028"
+          bullets={["Organisational Communication track."]}
+        />
+        <Entry
           title="Portland State University"
           where="B.A. Business Administration — Advertising Management · Portland, Oregon"
           when="2013 — 2017"

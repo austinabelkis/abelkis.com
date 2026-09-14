@@ -48,8 +48,12 @@ certificate automatically once the records resolve.
       vercel.app preview; same for wagsworks.com when the rebuild ships.
 - [ ] **Sommeliers Academy** — role stated as "Website & growth strategy";
       adjust if the scope was different.
-- [ ] **CV PDF** at `public/Austin-Abelkis-CV.pdf` is the June 2026 designed
-      resume. Replace when it changes.
+- [ ] **CV PDF** at `public/Austin-Abelkis-CV.pdf` is the Sept 2026 resume
+      (Claude Design export, matched to LinkedIn; Austin approved it as-is,
+      header layout and Swedish phone number included). Only its internal PDF
+      title was changed, from "Resume redesign consultation" to "Austin
+      Abelkis Resume" — re-apply that to future exports. The /cv page mirrors
+      its titles, dates and bullets; update both together.
 - [ ] **WagsWorks team photos are swapped at the source** —
       `~/assets/team/austin-abelkis.jpg` is Scott and vice versa.
 
