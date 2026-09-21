@@ -115,7 +115,8 @@ export default function Home() {
                 </div>
                 <p>
                   A sponsorship agency’s whole back office in one app — deals,
-                  paperwork that chases itself, invoices, guestlists. Built
+                  paperwork that chases itself, invoicing through QuickBooks,
+                  guestlists. Built
                   because nothing off the shelf fit the job.
                 </p>
               </div>

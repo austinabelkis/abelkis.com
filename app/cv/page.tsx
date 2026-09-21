@@ -61,7 +61,7 @@ export default function CV() {
             "Produce sponsorships end to end for US festivals and concert series: pitch decks, packages, contracts, COIs, and partner approvals.",
             "Oversee on-site activations and deliver post-event recaps and reporting.",
             "Run invoicing, bookkeeping, and financial tracking across clients and events.",
-            "Designed and built WagsWorks OS — the internal platform the team runs daily: deal pipeline, paperwork tracking, invoicing, guestlists, revenue reporting, and team chat.",
+            "Designed and built WagsWorks OS — the internal platform the team runs daily: deal pipeline, paperwork tracking, invoicing and payments through QuickBooks, guestlists, revenue reporting, and team chat.",
           ]}
         />
         <Entry
@@ -120,7 +120,7 @@ export default function CV() {
           where="Design & build — internal sponsorship platform"
           when="2025 — present"
           bullets={[
-            "Dependency-free PWA on Cloudflare Workers + Supabase: deals, paperwork auto-escalation, invoicing, guestlists, revenue YoY, realtime chat, Gmail integration.",
+            "Frameworkless PWA on Cloudflare Workers + Supabase: deals, paperwork auto-escalation, QuickBooks Online invoicing and daily payment sync, guestlists, revenue YoY, realtime chat, Gmail integration.",
           ]}
         />
       </div>

@@ -100,7 +100,16 @@ export default function Work() {
                 Sarah tomorrow, Scott, urgent” — and it works out the date, who
                 it&apos;s for, and how urgent it is
               </li>
-              <li>Invoices, with anything late showing up before a client has to ask</li>
+              <li>
+                Wired into the company&apos;s QuickBooks. Invoices go out from
+                the deal they belong to, and every morning it checks what&apos;s
+                been paid, marks it off and moves the deal along
+              </li>
+              <li>
+                Every invoice QuickBooks has ever sent, searchable by number,
+                customer, amount or a word written on it — with the PDF one
+                click away and anything late flagged before a client has to ask
+              </li>
               <li>
                 What each event is actually earning — what was pitched, what
                 is expected, what has been paid — next to last year
@@ -127,8 +136,8 @@ export default function Work() {
             </div>
             <p className="tech-note">
               Skip this bit unless you have a developer who&apos;ll ask: it
-              runs on Cloudflare and Supabase, with no framework and no
-              dependencies to keep patched, and it&apos;s tested
+              runs on Cloudflare and Supabase, with no framework and just one
+              outside library to keep up to date, and it&apos;s tested
               automatically before anything ships.
             </p>
 
@@ -139,6 +148,7 @@ export default function Work() {
                   <li>Deals tracked across spreadsheets and inboxes</li>
                   <li>Paperwork status living in somebody’s head</li>
                   <li>Overdue invoices found by accident</li>
+                  <li>QuickBooks and the pipeline kept separately</li>
                   <li>Generic tools that fit about 75% of the job</li>
                 </ul>
               </div>
@@ -148,6 +158,7 @@ export default function Work() {
                   <li>One pipeline, every deal, every show</li>
                   <li>Stale paperwork flags itself and assigns the chase</li>
                   <li>Overdue invoices surface before anyone asks</li>
+                  <li>QuickBooks and the pipeline in step, checked every morning</li>
                   <li>Built to the actual process, not around a product</li>
                 </ul>
               </div>
@@ -166,6 +177,10 @@ export default function Work() {
               <div>
                 <dt>Built with</dt>
                 <dd>Cloudflare Workers · Supabase · PWA</dd>
+              </div>
+              <div>
+                <dt>Connects to</dt>
+                <dd>QuickBooks · Gmail · Google Drive</dd>
               </div>
               <div>
                 <dt>Access</dt>

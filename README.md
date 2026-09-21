@@ -79,6 +79,13 @@ certificate automatically once the records resolve.
   no family data, and deletes everything in a `finally` block. Never
   screenshot a list page — those contain real families.
 
+- **WagsWorks OS claims are sourced from the app itself** — its in-app help
+  text and git history in `~/Desktop/Coding Projects/wagsworks-app`. When
+  the app changes, re-check them: e.g. "just one outside library" is the
+  Anthropic SDK, added Sept 19, 2026 for contract scanning (before that the
+  site said "no dependencies"); "13 sections" counts the sidebar, which
+  gained Accounting (QuickBooks) the same week.
+
 ## WagsWorks OS screenshot rules (they're live on /work)
 
 Real screens from the running platform, captured by Austin, redacted before
