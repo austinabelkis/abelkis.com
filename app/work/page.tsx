@@ -101,6 +101,13 @@ export default function Work() {
                 it&apos;s for, and how urgent it is
               </li>
               <li>
+                Drop in a signed contract and Claude reads it. Every banner,
+                social post, ticket and on-site promise becomes a line on the
+                deal; the payment schedule and the deadlines are one click from
+                invoices and to-dos; and anything vaguely worded gets flagged
+                for a person to check
+              </li>
+              <li>
                 Wired into the company&apos;s QuickBooks. Invoices go out from
                 the deal they belong to, and every morning it checks what&apos;s
                 been paid, marks it off and moves the deal along
@@ -137,7 +144,8 @@ export default function Work() {
             <p className="tech-note">
               Skip this bit unless you have a developer who&apos;ll ask: it
               runs on Cloudflare and Supabase, with no framework and just one
-              outside library to keep up to date, and it&apos;s tested
+              outside library to keep up to date (Anthropic&apos;s, for reading
+              contracts), and it&apos;s tested
               automatically before anything ships.
             </p>
 
@@ -147,6 +155,7 @@ export default function Work() {
                 <ul>
                   <li>Deals tracked across spreadsheets and inboxes</li>
                   <li>Paperwork status living in somebody’s head</li>
+                  <li>Contract benefits typed in by hand</li>
                   <li>Overdue invoices found by accident</li>
                   <li>QuickBooks and the pipeline kept separately</li>
                   <li>Generic tools that fit about 75% of the job</li>
@@ -157,6 +166,7 @@ export default function Work() {
                 <ul>
                   <li>One pipeline, every deal, every show</li>
                   <li>Stale paperwork flags itself and assigns the chase</li>
+                  <li>Signed contracts read straight into the deal</li>
                   <li>Overdue invoices surface before anyone asks</li>
                   <li>QuickBooks and the pipeline in step, checked every morning</li>
                   <li>Built to the actual process, not around a product</li>
@@ -180,7 +190,7 @@ export default function Work() {
               </div>
               <div>
                 <dt>Connects to</dt>
-                <dd>QuickBooks · Gmail · Google Drive</dd>
+                <dd>QuickBooks · Gmail · Google Drive · Claude</dd>
               </div>
               <div>
                 <dt>Access</dt>
