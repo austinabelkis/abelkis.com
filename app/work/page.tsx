@@ -230,6 +230,28 @@ export default function Work() {
                 <i></i>
               </div>
               <img
+                src="/img/wags-accounting.webp"
+                alt="The accounting page: invoices recently paid, synced from QuickBooks, with customer, status and date paid"
+                width={1600}
+                height={775}
+              />
+            </div>
+            <figcaption>
+              <b>The books, in step.</b> Invoices go out through QuickBooks
+              from the deal they belong to. Every morning the app asks
+              QuickBooks what has been paid, marks it off and moves the deal
+              along.
+            </figcaption>
+          </figure>
+
+          <figure className="figure">
+            <div className="browser-frame">
+              <div className="bar">
+                <i></i>
+                <i></i>
+                <i></i>
+              </div>
+              <img
                 src="/img/wags-deals.webp"
                 alt="The deal pipeline: a card per client with counts, values and a red/amber/green stage bar"
                 width={1600}

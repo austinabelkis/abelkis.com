@@ -94,3 +94,10 @@ guestlists blurred. Client and festival names stay — they're the roster.
 The "Crystal Blocks" / "West Side Entertainment District" task is cropped
 out entirely: an unannounced McMenamins property's working name must never
 appear, and a crop can't be reversed the way a blur sometimes can.
+
+`wags-accounting.webp` (Sept 2026) shows only the Accounting page's
+**Recently paid** list. Never publish its open/overdue invoice list: even
+with amounts blurred it says which named clients owe money. Each amount is
+collapsed to a flat smudge (pixel-verified, no glyph detail left) rather
+than blurred as one column, so the row dividers stay intact. "Crystal
+Ballroom" in it is McMenamins' public venue, not Crystal Blocks.
